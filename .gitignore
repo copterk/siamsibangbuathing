@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+*.ai
+/src/assets/Links/
+/src/assets/Ю╚уба╚у.ai

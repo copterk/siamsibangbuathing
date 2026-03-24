@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Sao Chingcha';
+  src: url('/fonts/SaoChingcha-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @layer base {
   body {
-    @apply bg-fortune-cream text-stone-800 font-sans;
+    @apply bg-[#FF007A] text-white;
+    font-family: 'Sao Chingcha', 'Sarabun', 'Noto Sans Thai', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
