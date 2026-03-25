@@ -229,10 +229,10 @@ const App = () => {
               ))}
             </div>
           </div>
-
+          {/* 
           <footer className="p-6 text-center text-white/40 text-xs font-bold tracking-widest uppercase relative z-10">
             สถานีสุขที่บางบัวทอง © 2026
-          </footer>
+          </footer> */}
         </div>
       )}
 
