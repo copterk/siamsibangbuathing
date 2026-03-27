@@ -185,7 +185,7 @@ const App = () => {
           </div>
 
           {/* Title Banner */}
-          <div className="relative z-20 mx-auto w-[260px] -mt-10 mb-6" style={{ filter: 'drop-shadow(6px 6px 0px rgba(0,0,0,0.9))' }}>
+          <div className="relative z-20 mx-auto w-[260px] -mt-10 mb-6">
             <div
               className="bg-[#2755B8] p-[6px] relative"
               style={{ clipPath: 'polygon(18px 0, calc(100% - 18px) 0, 100% 50%, calc(100% - 18px) 100%, 18px 100%, 0 50%)' }}
@@ -378,7 +378,7 @@ const App = () => {
               {/* Card number badge */}
               <div className="flex justify-center pb-4">
                 <div className="bg-[#FFEA00] px-5 py-1 rounded-full shadow-md">
-                  <span className="text-[#FF007A] font-black text-xs tracking-widest">BUA BOON SIAMSI NO. {currentFortune.id}</span>
+                  <span className="text-[#FF007A] font-black text-xs tracking-widest">หมายเลข: {currentFortune.id}</span>
                 </div>
               </div>
             </div>
